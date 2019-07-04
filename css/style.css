@@ -1,0 +1,245 @@
+body,
+html {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+section {
+    padding-top: 50px;
+}
+
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: none;
+}
+
+.nav-logo {
+    background-image: url("../img/logo-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+}
+
+.full {
+    height: 50px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.nav li {
+    background-color: rgba(139, 0, 0, 0.5);
+}
+
+.fives {
+    height: 15vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: none;
+}
+
+.my-logo {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("../img/logo-dark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30%;
+    height: 70%;
+}
+
+.my-logo:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../img/logo-white.png");
+}
+
+.my-logo2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("../img/logo-dark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 10%;
+}
+
+.my-logo2:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../img/logo-white.png");
+}
+
+.my-logo3:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../img/logo-white.png");
+}
+
+.my-logo4:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("../img/logo-white.png");
+}
+
+.twenty {
+    height: 20vh;
+}
+
+.whole {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.end {
+    text-align: end;
+}
+
+.tagline {
+    font-size: 3em;
+}
+
+.tagline2 {
+    font-size: 2em;
+}
+
+
+.tagline3 {
+    font-size: 1.5em;
+}
+
+.tagline4 {
+    font-size: 1em;
+}
+
+.section-1 {
+
+    background-image: url("../img/spring-food-istock.jpg");
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.section-2 {
+    background-image: url("../img/McDonaldsFries.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.section-3 {
+    background-image: url("../img/world.jpeg");
+    background-color: rgba(139, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.my-logo3 {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("../img/logo-dark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20vw;
+    height: 10vh;
+}
+
+.section-4 {
+    background-image: url("../img/foodiemap.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: multiply;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.my-logo4 {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("../img/logo-dark.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40vw;
+    height: 10vh;
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .hide-on-large {
+        display: none !important;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .hide-on-small {
+        display: none !important;
+    }
+
+    .fives {
+        height: 20vh;
+        align-items: flex-start;
+    }
+
+    .section-2 {
+        background-image: url("../img/macdon.jpeg");
+    }
+
+    .whole {
+        height: 60vh;
+        justify-content: flex-end;
+    }
+
+    .my-logo {
+        width: 60%;
+    }
+
+    .my-logo2 {
+        width: 70%;
+        height: 20%;
+    }
+
+    .my-logo3 {
+        width: 50vw;
+        height: 10vh;
+    }
+
+    .my-logo4 {
+        width: 80vw;
+        height: 10vh;
+    }
+}
